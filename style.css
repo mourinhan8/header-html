@@ -67,7 +67,52 @@ nav .menu{
     color: black;
 }
 
-.menu ul li a:hover{
+.menu ul sli a:hover{
     background: black;
     color: #fff;
+}
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title {
+    color: yellow;
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.center button{
+    margin-top: 20px;
+    background: none;
+    border: none;
+}
+
+.center .btn {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin: 0 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.center .btn:nth-child(1){
+    border: none;
+    background: yellow;
+    color: black;
+}
+
+.center .btn:hover{
+    background: yellow;
+    color: black;
 }
